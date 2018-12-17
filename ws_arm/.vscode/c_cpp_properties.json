@@ -1,0 +1,17 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/vfa/ws_arm/devel/include",
+        "/opt/ros/kinetic/include",
+        "/home/vfa/ws_arm/src/arm_controller/include",
+        "/usr/include"
+      ],
+      "name": "Linux"
+    }
+  ]
+}

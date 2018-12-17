@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: ""
+    relative_path: /home/vfa/ws_arm/src/arm_desc/urdf/101-myfirst.urdf
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/myfirst.srdf
+  CONFIG:
+    author_name: arm_moveit
+    author_email: chnghia@gmail.com
+    generated_timestamp: 1532856781
