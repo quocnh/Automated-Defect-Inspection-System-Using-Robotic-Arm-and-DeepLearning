@@ -1,5 +1,6 @@
 # ROBOT ARM
-
+# Video link:
+https://drive.google.com/file/d/1KCF31cqWTbForki-6d7YNfTgb_rOv_WZ/view?usp=sharing
 ## Requirements:
 - Raspberry Pi 3 Model B+
 - Adafruit 16 Channel Servo Driver PWM PCA9685
