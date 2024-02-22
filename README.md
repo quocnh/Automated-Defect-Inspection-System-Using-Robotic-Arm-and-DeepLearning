@@ -1,4 +1,4 @@
-# ROBOT ARM
+# ROBOT ARM PROJECT
 # Video link:
 https://drive.google.com/file/d/1KCF31cqWTbForki-6d7YNfTgb_rOv_WZ/view?usp=sharing
 ## Requirements:
