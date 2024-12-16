@@ -49,17 +49,9 @@ Deep Leanring approach in order to make a model to predict defects in product in
 * URDF     Unified Robot Description Format
 
 ## 1. Introduction
-This paper proposes a inspection system which potentially so far in the process of product inspection in factories. 
-Specifically, in factories, product is fed onto the conveyor belt where grading personel stand along each side and
-visually inspect the product for defects. Defect product is manually removed and dropped into the trash lanes along the edge
-of each side of the conveyor. Good product continues along the length of the conveyor and discharges off of the end of the belt
-while defects are dropped through a trash chute at the exit end of the conveyor and into a lug. But the problem is this kind
-of system needs a lot of skill-workers to manually remove defects, so it should be automated from A to Z. In this situation, 
-building a Robot Arm for checking defects is essential and promissing. A Robot Arm does in several hours what it would take labor
-2-3 days to accomplish.
+This project explores the development of an automated inspection system designed to detect defects in products on a conveyor belt, replacing traditional manual inspection methods. In many factories, human operators manually inspect products and remove defective ones, which is labor-intensive and prone to inconsistency. By introducing a robotic arm combined with deep learning, this project demonstrates a system capable of efficiently identifying and handling defective products with high accuracy.
 
-In this paper, it describes the main parts to build a Robot Arm with Robot Operate System (ROS) and a deep learning approach in
-product inspection based on the Arm.
+The proposed system integrates a robotic arm controlled via the Robot Operating System (ROS) and a deep learning model to detect even the smallest defects in products. This approach offers significant improvements in speed, reliability, and scalability compared to manual inspection. The project outlines the construction of the robotic arm, the implementation of ROS for motion planning, and the development of a deep learning model trained to identify defects with precision. Together, these components create a promising foundation for fully automated product inspection processe.
 
 ## 2. System Overview
 
@@ -373,10 +365,11 @@ action, and parameter according to its correct purpose when programming on ROS.
 
 ## 4. Creating a Deep Learning Model
 ### 4.1 Preparing data
-In this section describes how the data set was created and what it contains.
-The images were obtained by filming the fruits while they are rotated by
-a motor and then extracting frames.
-Apple was planted in the shaft of a low speed motor (3 rpm) and a short movie of 20 seconds was recorded. Behind the fruits we placed a white
+To efficiently prepare the dataset, a custom C++ program was developed to extract frames from video recordings. This approach significantly reduced the time and effort required for object data collection, as it automated the process of capturing high-quality images of the inspected objects. Using computer vision techniques, the program ensured accurate frame extraction while maintaining image quality for subsequent processing.
+
+The captured frames were then pre-processed and labeled to serve as input for a deep learning model. This streamlined workflow demonstrates expertise in C++ programming for high-performance tasks, the application of computer vision for automation, and the integration of deep learning to solve real-world challenges in defect detection.
+
+Apple (an object) was planted in the shaft of a low speed motor (3 rpm) and a short movie of 20 seconds was recorded. Behind the fruits we placed a white
 sheet of paper as background.However due to the variations in the lighting conditions, the background
 was not uniform and we wrote a dedicated algorithm which extract the
 fruit from the background. This algorithm is of flood fill type: Start from
