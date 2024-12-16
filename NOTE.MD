@@ -22,20 +22,7 @@
         * [5.2.3 Invert Kinematics](#)
 * [6. ROS](#ros)
 
-## 1. System Overview
-![viewer](assert/system_overview.png)
 
-## 2. Connect Raspberry Pi with PCA9685
-![viewer](assert/pi_pca.png)
-
-## 3. Servos Configuration
-
-    # Set frequency to 60Hz, good for l298n h-bridge.
-    PCA9685_pwm.set_pwm_freq(60)
-    
-    # Configure min and max servo pulse lengths
-    servo_min = 150  # Min pulse length out of 4096
-    servo_max = 600  # Max pulse length out of 4096
     
 ## 4. Setup the Slask Server and Web UI for controlling servos
 ## 5. Pickup an object
