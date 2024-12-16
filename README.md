@@ -6,13 +6,12 @@ https://drive.google.com/file/d/1KCF31cqWTbForki-6d7YNfTgb_rOv_WZ/view?usp=shari
 - Adafruit 16 Channel Servo Driver PWM PCA9685
 - Servos MG996R
 
-## 1. System Overview
-![viewer](assert/system_overview.png)
 
-## 2. Connect Raspberry Pi with PCA9685
+
+## Connect Raspberry Pi with PCA9685
 ![viewer](assert/pi_pca.png)
 
-## 3. Servos Configuration
+## Servos Configuration
 
     # Set frequency to 60Hz, good for l298n h-bridge.
     PCA9685_pwm.set_pwm_freq(60)
