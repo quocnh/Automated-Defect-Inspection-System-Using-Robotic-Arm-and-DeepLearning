@@ -53,33 +53,7 @@ https://drive.google.com/file/d/1KCF31cqWTbForki-6d7YNfTgb_rOv_WZ/view?usp=shari
     3. Run chmod +x demo.sh
     4. ./demo.sh to run
 
-## Ideas
-    1. Pick&Place object by using camera (Object recognization)
-    Within the context of this project, a single pick and place cycle can be divided into the following tasks:
 
-        * Identify the target object on the board
-        * Plan and perform a clean movement towards the object
-        * Efficiently grasp/pick the target object without disturbing other objects
-        * Plan and perform a clean movement towards the drop-off site
-        * Efficiently stow/place the object at the drop-off site
-        
-    2. Apply Machine learning to classify objects 
-    3. Connect the Arm to the conveyor 
-## Improvements 
-    1. Fix and update URDF of the robot arm.
-    2. Visualize object in Rviz 
-    3. Restruct the current system (PC + Rasp) -> Only using Rasp
-## Write an article 
-
-    Structure of the article:
-    
-    Title: Building a Robot Arm with ROS
-    
-    - Chapter 1: Robot Operate System
-    - Chapter 2: Making a skeleton of the Robot Arm 
-    - Chapter 3: Communication between of the Arm and ROS by using Raspberry Pi 
-    - Chapter 4: Basic Kinematic movement and framework to optimize motion plaining.
-    - Chapter 5: Implementation 
     
 
 
