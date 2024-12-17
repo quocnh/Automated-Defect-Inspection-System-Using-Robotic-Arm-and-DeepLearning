@@ -2,6 +2,10 @@
 This is a brief note about the way we built a simple Robot Arm and
 Deep Leanring approach in order to make a model to predict defects in product inspection. 
 
+# Video link:
+1. https://drive.google.com/file/d/1KCF31cqWTbForki-6d7YNfTgb_rOv_WZ/view?usp=sharing
+2. https://drive.google.com/file/d/1sIMJ3BOCjd-B2ghHndZeDxoD2xsCqL9v/view?usp=sharing
+
 ## Table of Contents
 
 * [1. Introduction](#)
